@@ -1,0 +1,11 @@
+Scheduling Order: P1 | P2 | P1 | P3 | P4 | P3 | P5 | 
+Process ID | Priority | Arrival Time | Burst Time | Start Time | Termination Time | Turnaround Time | Waiting Time | Response Time
+P1         | 1        | 0            | 4          | 0          | 7                 | 7               | 3            | 0            
+P2         | 1        | 0            | 3          | 3          | 6                 | 6               | 3            | 3            
+P3         | 2        | 0            | 5          | 7          | 14                | 14              | 9            | 7            
+P4         | 1        | 10           | 2          | 10         | 12                | 2               | 0            | 0            
+P5         | 2        | 10           | 3          | 14         | 17                | 7               | 4            | 4            
+
+Average Turnaround Time: 3.0
+Average Waiting Time: 1.5833333333333333
+Average Response Time: 1.1666666666666667
